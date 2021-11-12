@@ -1,10 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import Accordion from "./components/Accordion/Accordion";
-import OnOff from './components/OnOff/OnOff';
-import UncontrolledAccordion from "./components/UncontrolledAccordion/UncontrolledAccordion";
-import UncontrolledRating from './components/UncontrolledRating/UncontrolledRating';
-import Rating, {RatingValueType} from "./components/Rating/Rating";
+import {RatingValueType} from "./components/Rating/Rating";
 import UncontrolledOnOff from './components/UncontrolledOnOff/UncontrolledOnOff';
 
 function App(props: any) {
